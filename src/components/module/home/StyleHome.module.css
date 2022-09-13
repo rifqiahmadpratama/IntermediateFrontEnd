@@ -1,0 +1,162 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "metropolis";
+  color: #222222;
+}
+@font-face /*perintah untuk memanggil font eksternal*/ {
+  font-family: "metropolis"; /*memberikan nama bebas untuk font*/
+  src: url("./metropolis.regular.otf"); /*memanggil file font eksternalnya di folder nexa*/
+}
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 70px;
+  border-radius: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #071c4d;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #071c4d !important;
+}
+
+.btn-login {
+  background-color: #071c4d;
+  color: #fff;
+}
+
+.btn-login:hover {
+  color: #fff;
+}
+
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.caption {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 40px;
+  border: #9b9b9b;
+}
+.icon-cart {
+  margin-right: 10px;
+}
+.title-icon {
+  margin-left: 10px;
+  margin-top: 7px;
+}
+.icon {
+  width: 30px;
+}
+.categories img {
+  width: 132px;
+  height: 132px;
+}
+.font-category {
+  font-size: 30px;
+  font-weight: 700;
+}
+.card-title,
+a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #222222;
+  text-decoration: none;
+}
+.card-title,
+a:hover {
+  color: #222222;
+}
+.price {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #db3022;
+}
+.merk {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  color: #9b9b9b;
+}
+.rating {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 8px;
+}
+.button-login,
+.button-signup {
+  border-radius: 24px;
+  margin: 5px 3px 5px 3px;
+}
+.button-login {
+  background-color: #db3022;
+  color: #fff;
+  padding-left: 23px;
+  padding-right: 23px;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.search-input {
+  border-radius: 50px;
+  border-right: 0px solid rgb(255, 255, 255);
+}
+.search {
+  border-radius: 50px;
+  background-color: #fff !important;
+}
+.filter {
+  margin-left: 5px;
+  border: 0.2px solid #9d9e9e;
+  border-radius: 12px !important;
+}
+.filter:hover {
+  border: 1px solid #393b41;
+  background-color: aliceblue;
+}
+.carousel-inner {
+  border-radius: 8px;
+}
+/* .btn-next{
+  background-color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-left: -90px !important;
+}
+.next{
+  width: 20px !important;
+  height: 20px !important;
+  margin-right: 800px;
+} */
+.start {
+  margin-top: -5px;
+}
+.products {
+  margin-bottom: -15px;
+  margin-top: 15px;
+}
+.title {
+  color: #222222;
+  font-weight: bold;
+}
+.footer {
+  margin-top: 140px;
+}
+.navbar-buttom {
+  display: none;
+}
+.footer-nav {
+  display: none;
+}
